@@ -1,0 +1,157 @@
+/**body and header**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.logo{
+    width: 120px;
+    border-radius: 50px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #24211b;
+}
+nav{
+    padding-top: 20px;
+	flex: 1;
+    padding-right: 20px;
+	text-align: right;
+}
+label{
+    color: #fff;
+}
+select{
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 150px;
+    text-align: center;
+}
+.btn{
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    outline: none;
+    text-align: center; 
+    transition: 1s;
+    box-shadow: 2px 1px 8px #fff;
+}
+.btn:hover{
+    color: #fff;
+    background: #000;
+    box-shadow: 2px 1px 8px #000;
+}
+.btn-home{
+    border-radius: 20px;
+    height: 30px;
+    width: 50px;
+    border: none;
+    outline: none;
+    text-align: center; 
+    transition: 1s;
+    box-shadow: 2px 1px 8px #fff;
+}
+.btn-home:hover{
+    color: #fff;
+    background: #000;
+    box-shadow: 2px 1px 8px #000;
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.ro{
+    padding-left: 20px;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+footer{
+    padding-top: 100px;
+    color: #000;
+    background-color: #fff;
+}
+.h{
+    color: #100E09;
+    text-align: center;
+    font-size: 20px;
+}
+h3{
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.p{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+hr{
+    border: 2px solid black;
+}
+/***RGB***/
+.rgb{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+.rgb-p{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+.teb{
+    width: 500%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+/**About us **/
+.abt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.hhhhhh{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/**custom**/
+.color-picker-container{
+  text-align: center;
+  margin-bottom: 19em;
+}
+.click{
+    text-align: center;
+    padding-bottom: 5px;
+    color: #fff;
+}
+/**custom scrolll bar**/
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background:#100E09;
+    border-radius:10px
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#ccc;
+}
+.Secret{
+    padding-top: 100px;
+    color: #161936;
+    background:linear-gradient(to right, red, orange , yellow, green, blue , indigo,violet)
+}
